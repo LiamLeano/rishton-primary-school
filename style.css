@@ -1,0 +1,100 @@
+/*spreadsheet made for all webpages in Rishton Primary School*/
+/*spreadsheet was modified from a previous project named 'MusicBox'*/
+
+* { /*sets the entire webpage's padding and margin to zero*/
+  padding: 0;
+  margin: 0;
+}
+
+@font-face { /*main font*/
+  font-family: "Brandon-Grotesque";
+  src: url(media/fonts/Brandon-Grotesque.otf) format("truetype");
+}
+
+body { /*background in orange and text font color*/
+  font-family: "Brandon-Grotesque", sans-serif;
+  color: rgb(5, 5, 5);
+  background: rgb(225, 85, 25);
+}
+
+h1, h2, h3, h4, h5, h6 { /*heading tags*/
+  font-family: "Brandon-Grotesque", sans-serif;
+}
+
+p { /*paragraph tag*/
+  font-family: "Brandon-Grotesque", sans-serif;
+}
+
+hr { /*extra space*/
+  border: 0px
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*navigation bar by Bootstrap's example*/
+/*https://getbootstrap.com/docs/5.3/examples/*/
+#logo { /*school logo*/
+  padding-bottom: 0;
+}
+
+.container-fluid { /*navigation bar properties*/
+  font-size: 35px;
+  background-color: rgb(245 ,245 ,245);
+  margin-top: -10px;
+}
+
+.navbar-brand { /*school logo*/
+  margin: 0 auto 0 auto;
+  font-size: 40px;
+  color: rgb(225, 85, 25);
+  transition: 0.25s;
+}
+
+/*5 hyperlinks*/
+.navbar-nav { /*hyperlinks in the middle*/
+  margin: 0 auto 0 auto;
+}
+
+/*navigation bar end*/
+
+/*-------------------------------------------------------------------------*/
+
+/*content (center)*/
+.content { /*content is on the center*/
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
+.content-header-xxxl { /*web page's title*/
+  font-size: xxx-large;
+}
+
+.content-header-xxl { /*subject's title*/
+  font-size: xx-large;
+}
+
+.content-header-xl { /*smaller title*/
+  font-size: x-large;
+}
+
+.content-paragraph-xl { /*paragraph*/
+  font-size: x-large;
+}
+/*content center end*/
+
+/*-------------------------------------*/
+
+/*links*/
+a {
+  color:rgb(245, 245, 245);
+}
+
+a:hover { /*hover over links*/
+  color: rgb(5, 5, 5);
+}
+
+a.active {
+  color: rgb(5, 5, 5);
+}
+
+/*-------------------------------------------------------------------------*/
